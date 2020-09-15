@@ -13,6 +13,8 @@ block content
       thead.thead-dark
         th id
         th Nombre
+        th Apellido
+        th Hincha de
         th Email
         th Cumpleaños
         th Edad
@@ -21,6 +23,8 @@ block content
           tr
             td= user.id
             td= user.name
+            td= user.surname
+            td= user.Hinchade
             td= user.mail
             td= user.birthday.toLocaleDateString('es-AR')
             td= user.age
