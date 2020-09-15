@@ -12,8 +12,7 @@ block content
     table.table.table-striped
       thead.thead-dark
         th id
-        th Nombre
-        th Apellido
+        th Nombres
         th Email
         th Fecha de nacimiento
         th Edad
@@ -22,7 +21,6 @@ block content
           tr
             td= user.id
             td= user.name
-            td= user.surname
             td= user.mail
             td= user.birthday.toLocaleDateString('es-AR')
             td= user.age
