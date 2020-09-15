@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 
 
 const port = process.env.PORT        || 3000;
-const db   = process.env.MONGODB_URI || 'mongodb+srv://hellodb:hellodb@cluster0.xbhvq.gcp.mongodb.net/hellodb?retryWrites=true&w=majority';
+const db   = process.env.MONGODB_URI || 'mongodb+srv://hellodb:hellodb@cluster0.iyo2l.gcp.mongodb.net/hello-db?retryWrites=true&w=majority';
 
 const app = express();
 
